@@ -1,0 +1,24 @@
+I have a temperature in Farenheit
+
+Insert Farenheit temp into form field C = 5/9 (F-32
+
+	When I click convert to Celcius {
+		Subtract 32 from Farenheit temp
+		Multipy new value by 5/9
+		Display the new temperature on the page/in celcius form field
+	}
+
+I have a temperature in Celcius.
+
+Insert Celcius temp into form field 
+
+	When I click convert to Farenheit {
+		Add 32 to Celcius temp
+		Multipy new value by 1.8
+		Display the new temperature on the page/in farenheit form field form field
+	}
+
+
+	relevant formulas:
+	C = 5/9 (F-32)
+	F = 9/5 (C+32)
